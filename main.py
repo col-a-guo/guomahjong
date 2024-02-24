@@ -9,10 +9,29 @@ winds = ["n", "s", "e", "w"]
 
 #PRIMARY:
 
+#20 PTS
+#Quan Dai X - Same number is in every set, and pair
+#Huin San Shu - Three numbers or words *only*
+#Double Dragon Elbow - 123, 789, one suit, 123, 789, another suit. Any pair
+#14 don't touch - Twelve things don't touch
 
+
+#40 PTS
+#Qing San Shu - Three numbers *only*
+#Xiao San Yuan - Two dragons x2, one as pair, any others
+#San Fong Pong - Three winds x3, any others
+
+#
+
+#SUPPLEMENTAL:
+
+#9 PTS
 #Hun Yao - 1/9/word in each set
-
 #Si Gui Er - 
+
+#11 PTS
+
+
 
 
 tiles = []
@@ -24,7 +43,7 @@ for i in range(4):
     for dragon in dragons:
         tiles.append(dragon, -1)
     for wind in winds:
-        tiles.append(wind, -1)
+        tiles.append(wind, -2)
 
 turn = 1
 
